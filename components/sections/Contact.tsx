@@ -11,6 +11,7 @@ import {
 
 import Container from "@/components/ui/Container";
 import SectionTitle from "@/components/ui/SectionTitle";
+import ContactForm from "@/components/forms/ContactForm";
 
 export default function Contact() {
   return (
@@ -26,7 +27,8 @@ export default function Contact() {
         />
 
         <div className="grid gap-10 lg:grid-cols-2">
-          {/* Carte informations */}
+
+          {/* Carte Informations */}
 
           <div className="rounded-[32px] border border-slate-800 bg-slate-900 p-10">
 
@@ -35,8 +37,9 @@ export default function Contact() {
             </h3>
 
             <p className="mt-4 leading-8 text-slate-400">
-              Vous recherchez un développeur Full Stack, technicien IT ou souhaitez discuter
-              d'un projet ? Contactez-moi.
+              Vous recherchez un développeur Full Stack, technicien IT
+              ou souhaitez discuter d'un projet ?
+              Contactez-moi.
             </p>
 
             <div className="mt-10 space-y-8">
@@ -61,7 +64,7 @@ export default function Contact() {
                 <MapPin className="text-blue-500" />
 
                 <span className="text-slate-300">
-                Ontario, Canada
+                  Ontario, Canada
                 </span>
               </div>
 
@@ -93,40 +96,10 @@ export default function Contact() {
 
           {/* Formulaire */}
 
-          <form className="rounded-[32px] border border-slate-800 bg-slate-900 p-10">
-
-            <div className="space-y-6">
-
-              <input
-                type="text"
-                placeholder="Nom complet"
-                className="w-full rounded-xl border border-slate-700 bg-slate-950 p-4 text-white outline-none transition focus:border-blue-500"
-              />
-
-              <input
-                type="email"
-                placeholder="Adresse e-mail"
-                className="w-full rounded-xl border border-slate-700 bg-slate-950 p-4 text-white outline-none transition focus:border-blue-500"
-              />
-
-              <textarea
-                rows={6}
-                placeholder="Votre message..."
-                className="w-full rounded-xl border border-slate-700 bg-slate-950 p-4 text-white outline-none transition focus:border-blue-500"
-              />
-
-              <button
-                type="submit"
-                className="w-full rounded-xl bg-blue-600 py-4 font-semibold text-white transition-all duration-300 hover:bg-blue-500"
-              >
-                Envoyer le message
-              </button>
-
-            </div>
-
-          </form>
+          <ContactForm />
 
         </div>
+
       </Container>
     </section>
   );

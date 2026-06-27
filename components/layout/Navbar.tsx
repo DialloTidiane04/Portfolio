@@ -64,14 +64,30 @@ export default function Navbar() {
           ))}
         </nav>
 
-        {/* Bouton */}
+        {/* Actions Desktop */}
 
-        <a
-          href="#contact"
-          className="hidden rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white shadow-lg shadow-blue-600/30 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500 md:inline-flex"
-        >
-          Me contacter
-        </a>
+        <div className="hidden items-center gap-4 md:flex">
+
+          <button
+            className="rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-slate-300 transition hover:border-blue-500 hover:text-white"
+          >
+            FR
+          </button>
+
+          <button
+            className="rounded-lg border border-slate-700 px-3 py-2 text-sm font-semibold text-slate-300 transition hover:border-blue-500 hover:text-white"
+          >
+            EN
+          </button>
+
+          <a
+            href="#contact"
+            className="rounded-xl bg-blue-600 px-6 py-3 font-semibold text-white shadow-lg shadow-blue-600/30 transition-all duration-300 hover:-translate-y-1 hover:bg-blue-500"
+          >
+            Me contacter
+          </a>
+
+        </div>
 
         {/* Bouton Mobile */}
 
@@ -101,6 +117,18 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
+
+            <div className="mt-4 flex gap-3">
+
+              <button className="flex-1 rounded-lg border border-slate-700 py-2 text-white">
+                FR
+              </button>
+
+              <button className="flex-1 rounded-lg border border-slate-700 py-2 text-white">
+                EN
+              </button>
+
+            </div>
 
             <a
               href="#contact"

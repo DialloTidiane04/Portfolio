@@ -15,19 +15,16 @@ export const metadata: Metadata = {
   },
 
   description:
-    "Portfolio de Mohamed Tidiane Diallo, développeur Full Stack spécialisé en React, Next.js, TypeScript, Node.js et Tailwind CSS. Découvrez mes projets, mes compétences et contactez-moi.",
+    "Portfolio de Mohamed Tidiane Diallo, développeur Full Stack spécialisé en React, Next.js, TypeScript, Node.js et Tailwind CSS.",
 
   keywords: [
-    "Mohamed Tidiane Diallo",
-    "Développeur Full Stack",
     "Portfolio",
-    "React",
+    "Développeur Full Stack",
     "Next.js",
+    "React",
     "TypeScript",
     "Node.js",
     "Tailwind CSS",
-    "JavaScript",
-    "Développeur Web",
     "Ontario",
     "Canada",
   ],
@@ -53,7 +50,7 @@ export const metadata: Metadata = {
     url: "https://portfolio-seven-xi-49.vercel.app",
     title: "Mohamed Tidiane Diallo | Développeur Full Stack",
     description:
-      "Découvrez le portfolio de Mohamed Tidiane Diallo, développeur Full Stack spécialisé en React, Next.js, TypeScript et Node.js.",
+      "Portfolio professionnel de Mohamed Tidiane Diallo.",
 
     siteName: "Portfolio Mohamed Tidiane Diallo",
 
