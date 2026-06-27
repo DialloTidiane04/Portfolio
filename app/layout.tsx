@@ -7,7 +7,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ton-portfolio.vercel.app"),
+  metadataBase: new URL("https://portfolio-seven-xi-49.vercel.app"),
 
   title: {
     default: "Mohamed Tidiane Diallo | Développeur Full Stack",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "fr_CA",
-    url: "https://ton-portfolio.vercel.app",
+    url: "https://portfolio-seven-xi-49.vercel.app",
     title: "Mohamed Tidiane Diallo | Développeur Full Stack",
     description:
       "Découvrez le portfolio de Mohamed Tidiane Diallo, développeur Full Stack spécialisé en React, Next.js, TypeScript et Node.js.",

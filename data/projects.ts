@@ -18,7 +18,7 @@ export const projects = [
       "React",
     ],
 
-    liveUrl: "#",
+    liveUrl: "https://portfolio-seven-xi-49.vercel.app",
 
     githubUrl: "https://github.com/DialloTidiane04",
   },
